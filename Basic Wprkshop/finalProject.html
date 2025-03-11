@@ -1,0 +1,213 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universe</title>
+    <style>
+      body {
+  margin: 0 auto;
+  padding: 0;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #AFEEEE;
+  font-family: 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+      html, body {
+        min-height: 100vh; /* Ensures full viewport height */
+        border: 1px solid white;
+        justify-content: center;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/886/original/stars.jpg?1740752769");
+      }
+      background-image {
+        backdrop-filter: blur(40px) brightness(0.2);
+        background-size: cover;
+        }
+      
+
+      .content {
+        max-width: 700px;
+        height: 150px;
+        margin: 0 auto;
+        padding: 0px 60px;
+        text-align: center;
+      }
+
+      @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: n; }
+}
+
+h1 {
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+  background: linear-gradient(to right,  #F0FFF0, #E0FFFF, #CCEEFF, #B0E0E6, #ADD8E6, #B0E0E6, #CCEEFF, #E0FFFF, #F0FFF0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  
+  padding-top: 20px;
+  overflow: hidden; 
+  border-right: 0.15em solid #efe6e6; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  animation: typing 3s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+}
+
+      h2 {
+        font-size: 28px;
+        color: #57bfbf;
+        letter-spacing: 0.5px;
+        font-family: cursive;
+        text-decoration: underline;
+        
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 500;
+        color: #010a1f;
+        background: linear-gradient(109.6deg, rgb(84, 236, 244) 11.2%, rgb(100, 111, 210) 91.1%);
+        border: 1px double #434a54;
+        box-shadow: rgba(317, 180, 163, 0.5) 0px 3px 20px 1px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        background: linear-gradient(171.8deg, rgb(16, 95, 121) 13.5%, rgb(6, 47, 69) 78.6%);
+        color: #fff;
+      }
+
+      img {
+        max-width: 80%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+        border: 1px solid #948c8c;
+      }
+
+      .info {
+        max-width: 800px;
+        margin: 0 auto;
+       
+        justify-content: center;
+        padding: 20px 50px;
+        line-height: 30px;
+      }
+
+      p {
+        font-size: large;
+        line-height: 30px;
+      }
+
+      li {
+        font-size: large;
+        line-height: 30px;
+      }
+
+      .about {
+        text-align: center;
+        padding-top: 30px;
+        letter-spacing: 1.3px;
+        color: #c9d3ec;
+      }
+      a {
+        color: rgb(227, 61, 117);
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: goldenrod;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="content">
+      <h1>Discover the Universe</h1>
+      <h2>Explore the endless wonders of space...</h2>
+    </div>
+    <div class="info">
+      <p>
+        The universe is all of space, time, matter, and energy, including Earth and everything in it. It also includes all physical processes, interactions, and constants. Universe, the whole cosmic system of matter and energy of which Earth is a part.
+        <figure>
+          <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/887/original/universe.jpg?1740752802" alt="The Universe">
+          <figcaption style="text-decoration: underline; font-style: italic; text-align: center; font-size: 20px;">The Universe</figcaption>
+        </figure>
+      </p>
+
+      <p>
+        <strong style="font-size: 28px; color: rgb(242, 151, 242) ">What's in the Universe ?</strong>
+        <ul>
+          <li>
+            <strong>Stars, planets, and moons:</strong> Earth, the Moon, and all other planets are part of the universe.
+          </li>
+          <li>
+            <strong>Galaxies:</strong> The universe includes galactic filaments made up of stars.
+          </li>
+          <li>
+            <strong>Subatomic particles:</strong> The universe includes all forms of matter, from subatomic particles to stars.
+          </li>
+          <li>
+            <strong>Time:</strong> The universe includes time itself.
+          </li>
+        </ul>
+      </p>
+
+      <p>
+        <strong style="font-size: 28px; color: rgb(237, 141, 237)">What is the observable universe ?</strong><br>
+        The observable universe is the part of the universe that we can see from Earth. It's a spherical region that includes all matter that emits electromagnetic radiation that has reached Earth.
+      </p>
+      <p>
+        <strong style="font-size: 28px; color: rgb(237, 141, 237)">What's beyond the observable universe ?</strong><br>
+        The edge of the observable universe is a barrier that light can't cross. Beyond this edge, nothing can interact with us.
+      </p>
+      <button>Discover more 🔍</button>
+      <p class="about">Coded by <a href="http://www.linkedin.com/in/samikshabobade">Samiksha Bobade</a></p>
+    </div>
+
+    <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    function discoverMore() {
+      let firstName = prompt("What is your first name?");
+      if (!firstName) return; // If user cancels, don't proceed
+
+      let interest = prompt("Are you interested to explore more?");
+      if (!interest) return; // If user cancels, don't proceed
+
+      let h2 = document.querySelector(".content h2"); // Ensure correct selection
+
+      if (interest.toLowerCase() === "yes") {
+        alert(`Great, ${firstName}! Let's explore more about the Universe! 🌃`);
+          window.open("https://en.wikipedia.org/wiki/Universe", "_blank");    
+        }
+      else {
+        alert(`That's okay, ${firstName}! Have fun!😊`);
+      }
+    }
+
+    let discoverButton = document.querySelector("button");
+    if (discoverButton) {
+      discoverButton.addEventListener("click", discoverMore);
+    }
+  });
+</script>
+  </body>
+</html>
+
